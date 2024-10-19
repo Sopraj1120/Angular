@@ -1,0 +1,44 @@
+<div class="Container  mt-5">
+    <div class="card shadow p-3 mb-5 bg-white rounded">
+      <div class="card-body">
+
+     <div class="d-flex mb-3">
+        <div class="p-2">
+            <input type="text" class="form-control" placeholder="Search task....">
+        </div>
+        <div class="ml-auto p-2">
+            <button type="button" class="btn btn-dark" routerLink="/add">Add Task</button>
+        </div>
+
+     </div>   
+        
+        
+        
+      </div>
+      <table class="table table-bordered">
+  
+        
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Title</th>
+            <th scope="col">Description</th>
+            <th scope="col">Due Date</th>
+            <th scope="col">Priority</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of task">
+            <th scope="row">{{item.id}}</th>
+            <td>{{item.title}}</td>
+            <td>{{item.description}}</td>
+            <td>{{item.dueDate}}</td>
+            <td>{{item.priority}}</td>
+          </tr>
+          <tr>
+           
+        </tbody>
+      </table>
+    </div>
+    
+  </div>
