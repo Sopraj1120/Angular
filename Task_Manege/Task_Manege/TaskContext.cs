@@ -10,5 +10,22 @@ namespace Task_Manege
     }
 
     public DbSet<TaskItem> Tasks { get; set; }
+    public DbSet<User> Users { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+      modelBuilder.Entity<User>()
+        .HasOne(u => u.Address)
+        .WithOne(a => a.User)
+        .HasForeignKey<Address>(u => u.UserId);
+
+      modelBuilder.Entity<User>()
+        .HasMany(u=> u.Tasks)
+        .WithOne(t => t.Users)
+        .HasForeignKey(u => u.UserId);
+        
+
+      base.OnModelCreating(modelBuilder);
+    }
   }
 }

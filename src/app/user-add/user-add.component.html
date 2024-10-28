@@ -1,0 +1,63 @@
+<div class="container">
+    <div class="card shadow p-3 mb-5 bg-white rounded">
+        <div class="card-header">
+            <h3>Add New User</h3>
+        </div>
+
+        <div class="card-body">
+            <form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" formControlName="name">
+
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" formControlName="email">
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="text" class="form-control" id="password" formControlName="password">
+                </div>
+                <div class="mb-3">
+                    <label for="mobile" class="form-label">Mobile</label>
+                    <input type="text" class="form-control" id="mobile" formControlName="mobile">
+                </div>
+                <hr>
+                <div formGroupName="address">
+                    <h1>
+                        Address information
+                    </h1>
+
+                    <div class="mb-3">
+                        <label for="lane1" class="form-label">Lane1</label>
+                        <input type="text" class="form-control" id="lane1" formControlName="lane1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="lane2" class="form-label">Password</label>
+                        <input type="text" class="form-control" id="lane2" formControlName="lane2">
+                    </div>
+                    <div class="mb-3">
+                        <label for="city" class="form-label">Lane1</label>
+                        <input type="text" class="form-control" id="city" formControlName="city">
+                    </div>
+                </div>
+                
+
+
+                <div class="mb-3 mx-auto">
+                    <button type="submit" [disabled]="userForm.invalid"
+                    class="btn btn-primary me-2">Submit</button>
+
+                    <button type="button" (click)="cancle()"
+                    class="btn btn-secondary">Cancel</button>
+                </div>
+
+
+
+               
+            </form>
+        </div>
+
+    </div>
+</div>

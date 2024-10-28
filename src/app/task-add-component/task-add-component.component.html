@@ -29,9 +29,16 @@
                     </select>
 
                 </div>
+                <div class="mb-3">
+                    <label for="userId" class="form-label">User Id</label>
+                    <select class="form-control" formControlName="userId" >
+                        <option *ngFor="let user of username" value="{{user.id}}">{{user.name}}</option>
+                      </select>
+                </div>
+                
 
                 <div class="mb-3 mx-auto">
-                    <button type="button" [disabled]="taskForm.invalid"
+                    <button type="submit" [disabled]="taskForm.invalid"
                     class="btn btn-primary me-2">Submit</button>
 
                     <button type="button" (click)="cancle()"

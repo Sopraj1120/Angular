@@ -1,6 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { TaskListComponentComponent } from './task-list-component.component';
+import { routes } from '../app.routes';
+import { Router } from '@angular/router';
 
 describe('TaskListComponentComponent', () => {
   let component: TaskListComponentComponent;
@@ -8,7 +10,7 @@ describe('TaskListComponentComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [TaskListComponentComponent]
+      imports: [TaskListComponentComponent,Router]
     })
     .compileComponents();
 

@@ -9,18 +9,32 @@ export class TaskService {
   constructor(private http: HttpClient) { }
 
 
-  getTask(){
-    return this.http.get<any[]>(this.url);
+  getTasks(){
+    return this.http.get<task[]>(this.url);
   }
-  createTask(task: any){
+  createTask(task: task){
     return this.http.post(this.url, task);
   }
   
   deleteTask(taskId: number){
     return this.http.delete(this.url +'/'+ taskId)
   }
+  updateTask( task:task){
+    return this.http.put(this.url+'/'+task.id, task);
+  }
+
+  getTask(taskId: number){
+  return this.http.get(this.url +'/'+ taskId)
+  }
 
 
+}
 
+export interface task{
+  id:number;
+  title: string;
+  description: string;
+  dueDate: Date;
+  priority: string;
 }
 
