@@ -31,25 +31,44 @@
                 </div>
                 <div class="mb-3">
                     <label for="userId" class="form-label">User Id</label>
-                    <select class="form-control" formControlName="userId" >
+                    <select class="form-control" formControlName="userId">
                         <option *ngFor="let user of username" value="{{user.id}}">{{user.name}}</option>
-                      </select>
+                    </select>
                 </div>
+
+
+
                 
 
-                <div class="mb-3 mx-auto">
-                    <button type="submit" [disabled]="taskForm.invalid"
-                    class="btn btn-primary me-2">Submit</button>
 
-                    <button type="button" (click)="cancle()"
-                    class="btn btn-secondary">Cancel</button>
+                <div class="mb-3 mx-auto">
+                    <button type="submit" [disabled]="taskForm.invalid" class="btn btn-primary me-2">Submit</button>
+
+                    <button type="button" (click)="cancle()" class="btn btn-secondary">Cancel</button>
                 </div>
 
 
+                <hr>
+                <h4>Add Checklist</h4>
+                
+                <div formArrayName="checklist">
+                    <div *ngFor="let item of checklist.controls; let i = index" [formGroupName]="i" class="mb-2">
+                        <input type="checkbox" formControlName="done">
+                        <input type="text" formControlName="item" placeholder="Checklist item" class="form-control d-inline-block w-auto" style="width: 200px;">
+                        <button type="button" (click)="removeChecklistItem(i)" class="btn btn-danger btn-sm ms-2">Remove</button>
+                    </div>
+                </div>
+        
+                <button type="button" (click)="addChecklistItem()" class="btn btn-primary mt-3">Add Checklist Item</button>
+                
+        
 
-               
+
             </form>
         </div>
 
+
+      
+       
     </div>
 </div>

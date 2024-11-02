@@ -7,6 +7,7 @@ import { CommonModule, NgFor } from '@angular/common';
 import { TaskListComponentComponent } from './task-list-component/task-list-component.component';
 import { TaskAddComponentComponent } from './task-add-component/task-add-component.component';
 import { TaskEditComponent } from './task-edit/task-edit.component';
+import { setTheme } from 'ngx-bootstrap/utils';
 
 @Component({
   selector: 'app-root',
@@ -20,7 +21,7 @@ export class AppComponent implements OnInit{
   tasks:task[]=[];
 
   constructor(private taskService: TaskService){
-    
+    setTheme('bs5');
   }
 
   ngOnInit(): void {

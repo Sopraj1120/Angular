@@ -8137,11 +8137,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\UT01286\\practical\\Task_Manege\\Task_Manege\\Task_Manege.csproj",
+      "projectUniqueName": "C:\\Users\\UT01286\\Desktop\\Angular\\Task_Manege\\Task_Manege\\Task_Manege.csproj",
       "projectName": "Task_Manege",
-      "projectPath": "C:\\UT01286\\practical\\Task_Manege\\Task_Manege\\Task_Manege.csproj",
+      "projectPath": "C:\\Users\\UT01286\\Desktop\\Angular\\Task_Manege\\Task_Manege\\Task_Manege.csproj",
       "packagesPath": "C:\\Users\\UT01286\\.nuget\\packages\\",
-      "outputPath": "C:\\UT01286\\practical\\Task_Manege\\Task_Manege\\obj\\",
+      "outputPath": "C:\\Users\\UT01286\\Desktop\\Angular\\Task_Manege\\Task_Manege\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\UT01286\\AppData\\Roaming\\NuGet\\NuGet.Config",

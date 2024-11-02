@@ -23,6 +23,12 @@ namespace Task_Manege
         .HasMany(u=> u.Tasks)
         .WithOne(t => t.Users)
         .HasForeignKey(u => u.UserId);
+
+      modelBuilder.Entity<TaskItem>()
+        .HasMany(c => c.Checks)
+        .WithOne(t => t.Task)
+        .HasForeignKey(t => t.TaskId);
+        
         
 
       base.OnModelCreating(modelBuilder);
