@@ -59,6 +59,7 @@ export class TaskAddComponentComponent  implements OnInit {
     this.checklist.removeAt(index);
   }
 
+  
   cancle(){
     this.taskForm.reset();
   }

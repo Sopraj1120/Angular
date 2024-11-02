@@ -518,3 +518,4 @@ C:\Users\UT01286\Desktop\Angular\Task_Manege\Task_Manege\obj\Debug\net8.0\refint
 C:\Users\UT01286\Desktop\Angular\Task_Manege\Task_Manege\obj\Debug\net8.0\Task_Manege.pdb
 C:\Users\UT01286\Desktop\Angular\Task_Manege\Task_Manege\obj\Debug\net8.0\Task_Manege.genruntimeconfig.cache
 C:\Users\UT01286\Desktop\Angular\Task_Manege\Task_Manege\obj\Debug\net8.0\ref\Task_Manege.dll
+C:\Users\UT01286\Desktop\Angular\Task_Manege\Task_Manege\bin\Debug\net8.0\BCrypt.Net.dll

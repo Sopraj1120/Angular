@@ -18,7 +18,7 @@ namespace Task_Manege.Model
 
     public User? Users { get; set; }
 
-    public ICollection<CheckList> Checks { get; set; }
+    public ICollection<CheckList>? Checks { get; set; }
 
   }
 }
