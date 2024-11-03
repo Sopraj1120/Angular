@@ -5,6 +5,8 @@ import { TaskEditComponent } from './task-edit/task-edit.component';
 import { UserListComponent } from './user-list/user-list.component';
 import { UserAddComponent } from './user-add/user-add.component';
 import { UserEditComponent } from './user-edit/user-edit.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 export const routes: Routes = [
     {path: 'task', component: TaskListComponentComponent},
@@ -12,5 +14,7 @@ export const routes: Routes = [
     {path: 'edit/:id', component:TaskEditComponent},
     {path: 'user', component:UserListComponent},
     {path: 'user-add', component: UserAddComponent},
-    {path: 'user-edit/:id', component:UserEditComponent}
+    {path: 'user-edit/:id', component:UserEditComponent},
+    {path:'', component:LoginComponent},
+    {path:'User-register', component:RegisterComponent}
 ];

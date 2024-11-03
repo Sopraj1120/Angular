@@ -1,5 +1,10 @@
 
 using Microsoft.EntityFrameworkCore;
+using Task_Manege.IRepository;
+using Task_Manege.IService;
+using Task_Manege.Model;
+using Task_Manege.Repository;
+using Task_Manege.Service;
 
 namespace Task_Manege
 {
@@ -20,6 +25,10 @@ namespace Task_Manege
       builder.Services.AddSwaggerGen();
 
       builder.Services.AddDbContext<TaskContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("Connection")));
+
+
+      builder.Services.AddScoped<IUserLogin, UserRegiRepository>();
+      builder.Services.AddScoped<IUserService, UserLoginService>();
 
       builder.Services.AddCors(options =>
       {
