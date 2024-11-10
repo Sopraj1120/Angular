@@ -16,7 +16,7 @@ namespace Task_Manege.Controllers
       _userService = userService;
     }
 
-    [HttpPost]
+    [HttpPost("register")]
     public async Task<IActionResult> RegisterUser(UserRes user)
     {
       var data = await _userService.Register(user);
@@ -24,11 +24,11 @@ namespace Task_Manege.Controllers
       return Ok(data);
     }
 
-    [HttpGet]
+    [HttpPost("login")]
 
-    public  async Task<IActionResult> LoginUser(string email, string password)
+    public  async Task<IActionResult> LoginUser(loginuserDto loginuser)
     {
-      var data = await _userService.Loginuser(email, password);
+      var data = await _userService.Loginuser(loginuser);
       return Ok(data);
     }
   }

@@ -2,8 +2,8 @@ namespace Task_Manege.Model
 {
   public enum Role
   {
-    Admin = 0,
-    Editor = 1,
-    viewer = 2,
+    Admin = 1,
+    Editor = 2,
+    viewer = 3,
   }
 }

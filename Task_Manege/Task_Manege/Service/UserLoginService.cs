@@ -24,7 +24,8 @@ namespace Task_Manege.Service
       {
         Name = userRes.name,
         Email = userRes.email,
-        HashPassword = BCrypt.Net.BCrypt.HashPassword(userRes.password)
+        HashPassword = BCrypt.Net.BCrypt.HashPassword(userRes.password),
+        Role = userRes.Role,
       };
 
       var data = await _userLogin.AddUser(user);
@@ -33,12 +34,12 @@ namespace Task_Manege.Service
       return CreateToken();
     }
 
-    public async Task<TokenModal> Loginuser(string email, string password)
+    public async Task<TokenModal> Loginuser(loginuserDto loginuser)
     {
       
-      var user = await _userLogin.LoginUser(email);
+      var user = await _userLogin.LoginUser(loginuser.email);
 
-      if (user == null || !BCrypt.Net.BCrypt.Verify(password, user.HashPassword))
+      if (user == null || !BCrypt.Net.BCrypt.Verify(loginuser.password, user.HashPassword))
       {
        
         return null;

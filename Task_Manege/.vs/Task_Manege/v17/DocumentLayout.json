@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\UT01286\\Desktop\\Angular\\Task_Manege\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CCEB7FF5-6265-4DD1-A026-1D9CF4B11C57}|Task_Manege\\Task_Manege.csproj|c:\\users\\ut01286\\desktop\\angular\\task_manege\\task_manege\\model\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCEB7FF5-6265-4DD1-A026-1D9CF4B11C57}|Task_Manege\\Task_Manege.csproj|solutionrelative:task_manege\\model\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCEB7FF5-6265-4DD1-A026-1D9CF4B11C57}|Task_Manege\\Task_Manege.csproj|c:\\users\\ut01286\\desktop\\angular\\task_manege\\task_manege\\controllers\\taskitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCEB7FF5-6265-4DD1-A026-1D9CF4B11C57}|Task_Manege\\Task_Manege.csproj|solutionrelative:task_manege\\controllers\\taskitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCEB7FF5-6265-4DD1-A026-1D9CF4B11C57}|Task_Manege\\Task_Manege.csproj|c:\\users\\ut01286\\desktop\\angular\\task_manege\\task_manege\\controllers\\userlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCEB7FF5-6265-4DD1-A026-1D9CF4B11C57}|Task_Manege\\Task_Manege.csproj|solutionrelative:task_manege\\controllers\\userlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CCEB7FF5-6265-4DD1-A026-1D9CF4B11C57}|Task_Manege\\Task_Manege.csproj|c:\\users\\ut01286\\desktop\\angular\\task_manege\\task_manege\\model\\userres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CCEB7FF5-6265-4DD1-A026-1D9CF4B11C57}|Task_Manege\\Task_Manege.csproj|solutionrelative:task_manege\\model\\userres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCEB7FF5-6265-4DD1-A026-1D9CF4B11C57}|Task_Manege\\Task_Manege.csproj|c:\\users\\ut01286\\desktop\\angular\\task_manege\\task_manege\\model\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCEB7FF5-6265-4DD1-A026-1D9CF4B11C57}|Task_Manege\\Task_Manege.csproj|solutionrelative:task_manege\\model\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCEB7FF5-6265-4DD1-A026-1D9CF4B11C57}|Task_Manege\\Task_Manege.csproj|c:\\users\\ut01286\\desktop\\angular\\task_manege\\task_manege\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCEB7FF5-6265-4DD1-A026-1D9CF4B11C57}|Task_Manege\\Task_Manege.csproj|solutionrelative:task_manege\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CCEB7FF5-6265-4DD1-A026-1D9CF4B11C57}|Task_Manege\\Task_Manege.csproj|c:\\users\\ut01286\\desktop\\angular\\task_manege\\task_manege\\service\\userloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,12 +27,32 @@
       "RelativeMoniker": "D:0:0:{CCEB7FF5-6265-4DD1-A026-1D9CF4B11C57}|Task_Manege\\Task_Manege.csproj|solutionrelative:task_manege\\repository\\userregirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CCEB7FF5-6265-4DD1-A026-1D9CF4B11C57}|Task_Manege\\Task_Manege.csproj|c:\\users\\ut01286\\desktop\\angular\\task_manege\\task_manege\\iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCEB7FF5-6265-4DD1-A026-1D9CF4B11C57}|Task_Manege\\Task_Manege.csproj|solutionrelative:task_manege\\iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCEB7FF5-6265-4DD1-A026-1D9CF4B11C57}|Task_Manege\\Task_Manege.csproj|c:\\users\\ut01286\\desktop\\angular\\task_manege\\task_manege\\model\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCEB7FF5-6265-4DD1-A026-1D9CF4B11C57}|Task_Manege\\Task_Manege.csproj|solutionrelative:task_manege\\model\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CCEB7FF5-6265-4DD1-A026-1D9CF4B11C57}|Task_Manege\\Task_Manege.csproj|c:\\users\\ut01286\\desktop\\angular\\task_manege\\task_manege\\model\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CCEB7FF5-6265-4DD1-A026-1D9CF4B11C57}|Task_Manege\\Task_Manege.csproj|solutionrelative:task_manege\\model\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CCEB7FF5-6265-4DD1-A026-1D9CF4B11C57}|Task_Manege\\Task_Manege.csproj|c:\\users\\ut01286\\desktop\\angular\\task_manege\\task_manege\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CCEB7FF5-6265-4DD1-A026-1D9CF4B11C57}|Task_Manege\\Task_Manege.csproj|solutionrelative:task_manege\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCEB7FF5-6265-4DD1-A026-1D9CF4B11C57}|Task_Manege\\Task_Manege.csproj|c:\\users\\ut01286\\desktop\\angular\\task_manege\\task_manege\\controllers\\taskitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCEB7FF5-6265-4DD1-A026-1D9CF4B11C57}|Task_Manege\\Task_Manege.csproj|solutionrelative:task_manege\\controllers\\taskitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCEB7FF5-6265-4DD1-A026-1D9CF4B11C57}|Task_Manege\\Task_Manege.csproj|c:\\users\\ut01286\\desktop\\angular\\task_manege\\task_manege\\migrations\\20241109085656_addusercpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCEB7FF5-6265-4DD1-A026-1D9CF4B11C57}|Task_Manege\\Task_Manege.csproj|solutionrelative:task_manege\\migrations\\20241109085656_addusercpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCEB7FF5-6265-4DD1-A026-1D9CF4B11C57}|Task_Manege\\Task_Manege.csproj|c:\\users\\ut01286\\desktop\\angular\\task_manege\\task_manege\\migrations\\20241109081614_userlogin dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCEB7FF5-6265-4DD1-A026-1D9CF4B11C57}|Task_Manege\\Task_Manege.csproj|solutionrelative:task_manege\\migrations\\20241109081614_userlogin dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,37 +62,86 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\UT01286\\Desktop\\Angular\\Task_Manege\\Task_Manege\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Task_Manege\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\UT01286\\Desktop\\Angular\\Task_Manege\\Task_Manege\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Task_Manege\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T04:25:05.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "loginuserDto.cs",
+              "DocumentMoniker": "C:\\Users\\UT01286\\Desktop\\Angular\\Task_Manege\\Task_Manege\\Model\\loginuserDto.cs",
+              "RelativeDocumentMoniker": "Task_Manege\\Model\\loginuserDto.cs",
+              "ToolTip": "C:\\Users\\UT01286\\Desktop\\Angular\\Task_Manege\\Task_Manege\\Model\\loginuserDto.cs",
+              "RelativeToolTip": "Task_Manege\\Model\\loginuserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T08:12:18.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "UserRes.cs",
               "DocumentMoniker": "C:\\Users\\UT01286\\Desktop\\Angular\\Task_Manege\\Task_Manege\\Model\\UserRes.cs",
               "RelativeDocumentMoniker": "Task_Manege\\Model\\UserRes.cs",
               "ToolTip": "C:\\Users\\UT01286\\Desktop\\Angular\\Task_Manege\\Task_Manege\\Model\\UserRes.cs",
               "RelativeToolTip": "Task_Manege\\Model\\UserRes.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T09:49:00.568Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\UT01286\\Desktop\\Angular\\Task_Manege\\Task_Manege\\IService\\IUserService.cs",
+              "RelativeDocumentMoniker": "Task_Manege\\IService\\IUserService.cs",
+              "ToolTip": "C:\\Users\\UT01286\\Desktop\\Angular\\Task_Manege\\Task_Manege\\IService\\IUserService.cs",
+              "RelativeToolTip": "Task_Manege\\IService\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T08:14:43.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserLoginController.cs",
+              "DocumentMoniker": "C:\\Users\\UT01286\\Desktop\\Angular\\Task_Manege\\Task_Manege\\Controllers\\UserLoginController.cs",
+              "RelativeDocumentMoniker": "Task_Manege\\Controllers\\UserLoginController.cs",
+              "ToolTip": "C:\\Users\\UT01286\\Desktop\\Angular\\Task_Manege\\Task_Manege\\Controllers\\UserLoginController.cs",
+              "RelativeToolTip": "Task_Manege\\Controllers\\UserLoginController.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAApwB0AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T08:05:41.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "UserLoginService.cs",
               "DocumentMoniker": "C:\\Users\\UT01286\\Desktop\\Angular\\Task_Manege\\Task_Manege\\Service\\UserLoginService.cs",
               "RelativeDocumentMoniker": "Task_Manege\\Service\\UserLoginService.cs",
               "ToolTip": "C:\\Users\\UT01286\\Desktop\\Angular\\Task_Manege\\Task_Manege\\Service\\UserLoginService.cs",
               "RelativeToolTip": "Task_Manege\\Service\\UserLoginService.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwCsAAAAUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T09:42:13.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T09:42:13.908Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "TaskItem.cs",
               "DocumentMoniker": "C:\\Users\\UT01286\\Desktop\\Angular\\Task_Manege\\Task_Manege\\Model\\TaskItem.cs",
               "RelativeDocumentMoniker": "Task_Manege\\Model\\TaskItem.cs",
@@ -76,12 +149,11 @@
               "RelativeToolTip": "Task_Manege\\Model\\TaskItem.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T09:37:13.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T09:37:13.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\UT01286\\Desktop\\Angular\\Task_Manege\\Task_Manege\\Program.cs",
               "RelativeDocumentMoniker": "Task_Manege\\Program.cs",
@@ -89,12 +161,11 @@
               "RelativeToolTip": "Task_Manege\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T09:32:39.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T09:32:39.653Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "TaskItemsController.cs",
               "DocumentMoniker": "C:\\Users\\UT01286\\Desktop\\Angular\\Task_Manege\\Task_Manege\\Controllers\\TaskItemsController.cs",
               "RelativeDocumentMoniker": "Task_Manege\\Controllers\\TaskItemsController.cs",
@@ -107,29 +178,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserRegiRepository.cs",
-              "DocumentMoniker": "C:\\Users\\UT01286\\Desktop\\Angular\\Task_Manege\\Task_Manege\\Repository\\UserRegiRepository.cs",
-              "RelativeDocumentMoniker": "Task_Manege\\Repository\\UserRegiRepository.cs",
-              "ToolTip": "C:\\Users\\UT01286\\Desktop\\Angular\\Task_Manege\\Task_Manege\\Repository\\UserRegiRepository.cs",
-              "RelativeToolTip": "Task_Manege\\Repository\\UserRegiRepository.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAgwCIAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T09:31:53.864Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\Users\\UT01286\\Desktop\\Angular\\Task_Manege\\Task_Manege\\Model\\Role.cs",
               "RelativeDocumentMoniker": "Task_Manege\\Model\\Role.cs",
               "ToolTip": "C:\\Users\\UT01286\\Desktop\\Angular\\Task_Manege\\Task_Manege\\Model\\Role.cs",
               "RelativeToolTip": "Task_Manege\\Model\\Role.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T09:31:43.092Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20241109085656_addusercpass.cs",
+              "DocumentMoniker": "C:\\Users\\UT01286\\Desktop\\Angular\\Task_Manege\\Task_Manege\\Migrations\\20241109085656_addusercpass.cs",
+              "RelativeDocumentMoniker": "Task_Manege\\Migrations\\20241109085656_addusercpass.cs",
+              "ToolTip": "C:\\Users\\UT01286\\Desktop\\Angular\\Task_Manege\\Task_Manege\\Migrations\\20241109085656_addusercpass.cs",
+              "RelativeToolTip": "Task_Manege\\Migrations\\20241109085656_addusercpass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T08:56:56.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRegiRepository.cs",
+              "DocumentMoniker": "C:\\Users\\UT01286\\Desktop\\Angular\\Task_Manege\\Task_Manege\\Repository\\UserRegiRepository.cs",
+              "RelativeDocumentMoniker": "Task_Manege\\Repository\\UserRegiRepository.cs",
+              "ToolTip": "C:\\Users\\UT01286\\Desktop\\Angular\\Task_Manege\\Task_Manege\\Repository\\UserRegiRepository.cs",
+              "RelativeToolTip": "Task_Manege\\Repository\\UserRegiRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T09:31:53.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20241109081614_userlogin dto.cs",
+              "DocumentMoniker": "C:\\Users\\UT01286\\Desktop\\Angular\\Task_Manege\\Task_Manege\\Migrations\\20241109081614_userlogin dto.cs",
+              "RelativeDocumentMoniker": "Task_Manege\\Migrations\\20241109081614_userlogin dto.cs",
+              "ToolTip": "C:\\Users\\UT01286\\Desktop\\Angular\\Task_Manege\\Task_Manege\\Migrations\\20241109081614_userlogin dto.cs",
+              "RelativeToolTip": "Task_Manege\\Migrations\\20241109081614_userlogin dto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T08:16:14.633Z"
             }
           ]
         }
